@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Train-Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <script type="text/javascript" src="assets/js/logic.js"></script>
+    <div class="jumbotron jumbotron-fluid header-section" style="background-color: blueviolet;">
+        <div class="container jumbotron-container">
+            <h1 class="display-4">Anytime is Train Time</h1>
+            <p class="lead">Choo choo chee chee</p>
+        </div>
+    </div>
+
+</body>
+<div class="table-section">
+    <div class="table-heading">Current time schedule</div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+            </tr>
+        </thead>
+        <tbody class="table-section-body">
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="form-section">
+    <div class="form-heading">Add Train</div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Train Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                >
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Destination</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">First Train Time(HH:mm- military time)</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            >
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Frequency (min)</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary button-submit">Submit</button>
+    </form>
+</div>
+
+</html>

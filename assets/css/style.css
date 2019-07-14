@@ -1,0 +1,44 @@
+.header-section{
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.jumbotron-fluid{
+    color: white;
+    text-align: center;
+    
+}
+.table-heading{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.table-section{
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid gray;
+    margin-bottom: 40px;
+}
+.form-section{
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid gray;
+}
+.form-heading{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.form-group{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.button-submit{
+    margin-left: 10px;
+    margin-right: 10px;
+}
